@@ -41,29 +41,39 @@ A modern, responsive, and feature-rich **Support Ticket Manager** application de
 
 ## 🛠️ Getting Started & Setup
 
-### Prerequisites
-- Node.js (v18.0.0 or higher recommended)
-- npm (v9.0.0 or higher)
-
-### Installation Steps
+### Local Development
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd "Support Ticket Manager"
+   git clone https://github.com/pranil2410/Customer-Support-Ticket-Management-System.git
+   cd Customer-Support-Ticket-Management-System
    ```
-
 2. **Install Dependencies**:
    ```bash
    npm install
    ```
-
-3. **Start the Local Development Server**:
+3. **Start the Dev Server**:
    ```bash
    npm run dev
    ```
 
-4. **Access the App**:
-   Open your browser and navigate to `http://localhost:5173`.
+### ⚡ Deploy to Vercel
+You can deploy this React+Vite project to Vercel in two ways:
+
+#### Option 1: Vercel Git Integration (Recommended)
+1. Go to your **[Vercel Dashboard](https://vercel.com/dashboard)**.
+2. Click **Add New...** -> **Project**.
+3. Import your GitHub repository: `pranil2410/Customer-Support-Ticket-Management-System`.
+4. Vercel will auto-detect Vite settings. Click **Deploy**.
+
+#### Option 2: Vercel CLI
+1. Install the Vercel CLI globally:
+   ```bash
+   npm install -g vercel
+   ```
+2. Run the deployment command in the project root:
+   ```bash
+   vercel --prod
+   ```
 
 ---
 
